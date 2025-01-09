@@ -6,15 +6,19 @@ This Python program transcribes audio files from YouTube videos and outputs a su
 
 
 How it works (a simple summary): <br />
-A user will input a URL to a YouTube video of their choice. Using the Pytube library, a local download of that video's audio file will occur. That audio file will then be transcribed using OpenAI's speech recognition model known as "whisper". After transcription, the OpenAI API is utilized to summarize that chunk of text, which is then outputted for the user to see. A .txt file of both the original transcription and its respective summary will also be locally downloaded. <br /><br />
+A user will input a URL of a YouTube video of their choice. Using the Pytube library, a local download of that video's audio file will then occur. That audio file will then be transcribed using OpenAI's speech recognition model known as "whisper". After transcription, the OpenAI API will be utilized to summarize that chunk of text; that summary is then outputted for the user to see. A '.txt' file of both the original transcription and its respective summary will also be downloaded locally. <br /><br />
 
-How to start: <br />
-To get started, some modules have to be installed prior to its usage -> <br />
+
+How to start (a guide): <br />
+As of right now, Python 3.11 is the latest version of Python supported by OpenAI's whisper. <br />
+This version of Python also happens to be supported by the other modules imported as well. <br />
+Initially, some packages have to be installed prior to its usage (pip) -> <br />
 // pip install openai // https://pypi.org/project/openai/ <br />
 // pip install pytube // https://pypi.org/project/pytube/ <br />
 // pip install pytubefix // https://pypi.org/project/pytubefix/ <br />
 // pip install openai-whisper // https://pypi.org/project/openai-whisper/ for the initial set-up <br />
-// You will also need to get an API key from OpenAI. <br /><br />
+// You will also need to purchase an API key from OpenAI. // https://openai.com/api/ <br />
+// Then download the 'main' folder, run 'main.py', and input the URL of your YouTube video. <br /><br />
 
 
 Possible modification(s) one can make: <br />
@@ -25,7 +29,7 @@ Possible modification(s) one can make: <br />
 // whisper's model details <br /><br />
 
 
-Some test cases to demonstrate // *your outputs will obviously vary* <br />
+Some personal test cases to demonstrate // *your outputs will obviously vary* <br />
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 #1 <br />
 Input: <br />
@@ -55,3 +59,6 @@ Known issue(s) at the moment: <br />
 // Depending on the video of your choice, the clarity of the audio may affect the ability of OpenAI-Whisper's transcriptions, negatively affecting the accuracy of the summarization process. <br />
 
 //Longer videos can take a bit of time to transcribe. <br />
+
+
+
