@@ -1,4 +1,4 @@
-## YouSum (a YouTube video summarizer) ##
+## YouSummary (a YouTube video summarizer) ##
 ## BL Program ##
 
 Details: <br />
