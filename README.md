@@ -1,4 +1,4 @@
-## Summarization of an Audio Transcription ##
+## YouSum (a YouTube video summarizer) ##
 ## BL Program ##
 
 Details: <br />
