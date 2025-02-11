@@ -1,4 +1,4 @@
-# YouSummary (a YouTube video summarizer) <hr>
+# YouTube Summarizer (a Python application) <hr>
 BL Program <hr>
 
 Details: <br>
