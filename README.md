@@ -1,4 +1,4 @@
-# YouTube Summarizer (an application) <hr>
+# YouTube Summarizer (a console application) <hr>
 BL Program <hr>
 
 Details: <br>
