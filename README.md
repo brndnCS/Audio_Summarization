@@ -1,8 +1,8 @@
-# YouTube Summarizer (a Python application) <hr>
+# YouTube Summarizer (an application) <hr>
 BL Program <hr>
 
 Details: <br>
-This Python program transcribes audio files from YouTube videos and outputs a summary of it, using various API calls and modules. <br> <hr>
+This Python program transcribes audio files from YouTube videos and outputs a summary of it, using various API calls and modules. Users may then interact with the GPT model for further information. <br> <hr>
 
 How it works (a simple summary): <br>
 A user will input a URL of a YouTube video of their choice. Using the Pytube library, a local download of that video's audio file will then occur. That audio file will then be transcribed using OpenAI's speech recognition model known as "whisper". After transcription, the OpenAI API will be utilized to summarize that chunk of text; that summary is then outputted for the user to see. Users may then discuss and interact with the GPT for additional details/information.<br><hr>
@@ -35,7 +35,7 @@ Output: <br>
 Mark Zuckerberg humorously addressed a bizarre question during a live Q&A session where he was asked if he was secretly a lizard. He denied the allegations, encouraging participants to continue sending in high-quality and humorous comments to make the session entertaining.
 <br>
 The summary provides a concise overview of Zuckerberg's response to an unusual question in a live session, highlighting his light-hearted engagement with the audience. This approach aids in maintaining a relaxed and enjoyable interaction during public engagements.
-<br>
+<br> <br>
 Discuss -> You: <br>
 
 Input: <br>
@@ -70,10 +70,10 @@ The song "A Thousand Miles" by Vanessa Carlton was released in the year 2002.
 <br>
 
 Known issue(s) at the moment: <br>
-// Depending on the video of your choice, the clarity of the audio may affect the ability of OpenAI-Whisper's transcriptions, negatively affecting the accuracy of the summarization process. <br>
-//Longer videos can take a bit of time to transcribe. <br><hr>
+// Depending on the video of your choice, the clarity of the audio may affect the ability of OpenAI-Whisper's transcriptions, negatively affecting the accuracy of the summarization process. Ultimately, this is dependent on the user to select videos with acceptable audio.<br>
+// <s>Longer videos can take a bit of time to transcribe and summarize.</s> Decreased latency by ~10% by adjusting models. <br><hr>
 
-Future plans for this project: <br>
+Future plans for this project: (Completed)<br>
 ~<s>My goal for the near future is to implement interactability with the chat completion model after the output of the video's summary. This will allow users to ask questions, and discuss about information regarding the contents of the video.</s> <br><hr>
 
 
