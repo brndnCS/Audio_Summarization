@@ -8,7 +8,7 @@ import whisper
 
 
 #Your API key entered here
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="yourKeyHere")
 
 
 #Retrieves user-input and creates an object of that URL.
