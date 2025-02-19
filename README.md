@@ -4,6 +4,10 @@ BL Program <hr>
 Details: <br>
 This Python program transcribes audio files from YouTube videos and outputs a summary of it, using various API calls and modules. Users may then interact with the GPT model for further information. <br> <hr>
 
+Why did I make this? <br>
+~My sibling was interested in an application that could help them save time: rather than watching the entire YouTube video, they could read a simple summary about it instead <br> 
+~I wanted to combine multiple different technologies together to create an application that'll solve problems <hr>
+
 How it works (a simple summary): <br>
 A user will input a URL of a YouTube video of their choice. Using the Pytube library, a local download of that video's audio file will then occur. That audio file will then be transcribed using OpenAI's speech recognition model known as "whisper". After transcription, the OpenAI API will be utilized to summarize that chunk of text; that summary is then outputted for the user to see. Users may then discuss and interact with the GPT for additional details/information.<br><hr>
 
@@ -25,7 +29,7 @@ Possible modification(s) one can make: <br>
 
 // OpenAI's Whisper model details <br><hr>
 
-Some personal test cases to demonstrate this project// *your outputs will obviously vary* <br><br>
+Some personal test cases to demonstrate this project // *your outputs will obviously vary* <br><br>
 Test Case #1 <br>
 
 Input: <br>
